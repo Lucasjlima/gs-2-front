@@ -2,88 +2,87 @@ import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Integrantes = () => {
+
     return (
         <>
             <main>
-                <h1 className="my-2 text-center text-3xl md:text-4xl font-bold">
-                </h1>
-
-                <section className="flex flex-col items-center p-5 my-5 bg-neutral-50 text-black rounded-lg shadow-md max-w-11/12 mx-auto w-4xl text-center">
-                    <h2 className="text-3xl font-bold mb-4 md:text-4xl">
+                <section className="fundo-conteudo">
+                    <h1>
                         Conheça nossa equipe
-                    </h2>
+                    </h1>
+
                     <div>
-                        <article className="mb-10 border-4 border-blue-600 p-5">
+                        <article className="article-integrante">
                             <Image
                                 src="/images/foto-eduardo.jpg"
                                 alt="Foto do integrante Eduardo Osterloh Bindo"
                                 width={500}
                                 height={500}
-                                className="aspect-square mx-auto rounded-md w-56 h-56 sm:w-60 sm:h-60 md:w-64 md:h-64 max-w-full max-h-full"
+                                className="foto-integrante"
                             />
-                            <h3 className=" mb-2.5 text-xl font-semibold mt-4">
+                            <h3>
                                 Eduardo Osterloh Bindo
                             </h3>
-                            <p className="mb-2.5">RM: 559755</p>
-                            <p className="mb-2.5">Turma: 1TDSPA</p>
+                            <p>RM: 559755</p>
+                            <p>Turma: 1TDSPA</p>
                             <a
                                 href="https://www.linkedin.com/in/eduardo-osterloh-bindo-500b02268/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-600 text-5xl hover:text-blue-800 transition mt-2 inline-block"
+                                className="icone-linkedin"
                             >
                                 <FaLinkedin />
                             </a>
                         </article>
 
-                        <article className="mb-10 border-4 border-blue-600 p-5">
+                        <article className="article-integrante">
                             <Image
                                 src="/images/foto-lucas.jpg"
                                 alt="Foto do integrante Lucas José Lima"
                                 width={500}
                                 height={500}
-                                className="aspect-square mx-auto rounded-md w-56 h-56 sm:w-60 sm:h-60 md:w-64 md:h-64 max-w-full max-h-full"
+                                className="foto-integrante"
                             />
-                            <h3 className="mb-2.5 text-xl font-semibold mt-4">
+                            <h3>
                                 Lucas José Lima
                             </h3>
-                            <p className="mb-2.5">RM: 561160</p>
-                            <p className="mb-2.5">Turma: 1TDSPA</p>
+                            <p>RM: 561160</p>
+                            <p>Turma: 1TDSPA</p>
                             <a
                                 href="https://www.linkedin.com/in/lucasjos%C3%A9lima/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-600 text-5xl hover:text-blue-800 transition mt-2 inline-block"
+                                className="icone-linkedin"
                             >
                                 <FaLinkedin />
                             </a>
                         </article>
 
-                        <article className="mb-10 border-4 border-blue-600 p-5">
+                        <article className="article-integrante">
                             <Image
                                 src="/images/foto-rangel.jpg"
                                 alt="Foto do integrante Rangel Bernardi Jordão"
                                 width={500}
                                 height={500}
-                                className="aspect-square mx-auto rounded-md w-56 h-56 sm:w-60 sm:h-60 md:w-64 md:h-64 max-w-full max-h-full"
+                                className="foto-integrante"
                             />
-                            <h3 className="mb-2.5 text-xl font-semibold mt-4">
+                            <h3>
                                 Rangel Bernardi Jordão
                             </h3>
-                            <p className="mb-2.5">RM: 560547</p>
-                            <p className="mb-2.5">Turma: 1TDSPA</p>
+                            <p>RM: 560547</p>
+                            <p>Turma: 1TDSPA</p>
                             <a
                                 href="https://www.linkedin.com/in/rangel-jord%C3%A3o-819334234/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-blue-600 text-5xl hover:text-blue-800 transition mt-2 inline-block"
+                                className="icone-linkedin"
                             >
                                 <FaLinkedin />
                             </a>
                         </article>
                     </div>
 
-                    <h2 className="text-2xl font-semibold">
+                    <h2 className="text-2xl font-semibold mt-10">
                         GitHub da equipe
                     </h2>
                     <a
