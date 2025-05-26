@@ -1,0 +1,26 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import { Header } from "./components/header/header";
+import { Footer } from "./components/footer/footer";
+
+
+export const metadata: Metadata = {
+    title: "GS",
+    description: "Global Solution",
+};
+
+export default function RootLayout({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return (
+        <html lang="pt-br">
+            <body className="font-[Arial] bg-cyan-100 text-gray-800 text-lg m-0 p-0 leading-relaxed min-h-screen flex flex-col">
+                <Header />
+                {children}
+                <Footer />
+            </body>
+        </html>
+    );
+}
