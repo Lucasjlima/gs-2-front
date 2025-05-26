@@ -9,7 +9,7 @@
 }
 
 .article-integrante {
-    @apply mb-5 border-4 border-blue-600 p-5;
+    @apply mb-5 border-4 border-blue-600 p-4 sm:p-4 md:p-5;
 }
 
 .article-integrante h3 {
