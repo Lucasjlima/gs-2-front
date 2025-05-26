@@ -28,11 +28,7 @@ export function Header() {
                                     Início
                                 </Link>
                             </li>
-                            {/* <li>
-                                <Link className="px-2 hover:underline" href="/ccr-alertas">
-                                    Link
-                                </Link>
-                            </li> */}
+
                             <li>
                                 <Link className="px-2 hover:underline" href="/integrantes">
                                     Integrantes

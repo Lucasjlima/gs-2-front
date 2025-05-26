@@ -6,15 +6,14 @@ const Integrantes = () => {
         <>
             <main>
                 <h1 className="my-2 text-center text-3xl md:text-4xl font-bold">
-                    Conheça Nossa Equipe
                 </h1>
 
                 <section className="flex flex-col items-center p-5 my-5 bg-neutral-50 text-black rounded-lg shadow-md max-w-11/12 mx-auto w-4xl text-center">
-                    <h2 className="text-2xl font-semibold mb-4">
-                        Nossos Integrantes
+                    <h2 className="text-3xl font-bold mb-4 md:text-4xl">
+                        Conheça nossa equipe
                     </h2>
                     <div>
-                        <article>
+                        <article className="mb-10 border-4 border-blue-600 p-5">
                             <Image
                                 src="/images/foto-eduardo.jpg"
                                 alt="Foto do integrante Eduardo Osterloh Bindo"
@@ -37,7 +36,7 @@ const Integrantes = () => {
                             </a>
                         </article>
 
-                        <article>
+                        <article className="mb-10 border-4 border-blue-600 p-5">
                             <Image
                                 src="/images/foto-lucas.jpg"
                                 alt="Foto do integrante Lucas José Lima"
@@ -60,7 +59,7 @@ const Integrantes = () => {
                             </a>
                         </article>
 
-                        <article>
+                        <article className="mb-10 border-4 border-blue-600 p-5">
                             <Image
                                 src="/images/foto-rangel.jpg"
                                 alt="Foto do integrante Rangel Bernardi Jordão"
@@ -84,7 +83,7 @@ const Integrantes = () => {
                         </article>
                     </div>
 
-                    <h2 className="text-2xl font-semibold mt-8">
+                    <h2 className="text-2xl font-semibold">
                         GitHub da equipe
                     </h2>
                     <a
