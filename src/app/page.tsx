@@ -8,12 +8,8 @@ export default function Home() {
                 <section className="fundo-conteudo">
                     <h1>Como posso ajudar?</h1>
                     {/* Botões */}
-                    <Link href="/">
-                        <Botao texto="Texto" />
-                    </Link>
-
-                    <Link href="/">
-                        <Botao texto="Voz" />
+                    <Link href="/ajudaChat">
+                        <Botao texto="FAQ" />
                     </Link>
 
                     <Link href="/">
