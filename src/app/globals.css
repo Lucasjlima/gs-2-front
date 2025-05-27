@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-.fundo-conteudo {
-    @apply flex flex-col items-center p-5 my-5 bg-white rounded-lg shadow-md max-w-11/12 mx-auto w-3xl text-center
+.section-conteudo {
+    @apply flex flex-col items-center p-5 my-5 bg-white rounded-lg shadow-md max-w-11/12 mx-auto w-3xl text-center 
 }
 
-.fundo-conteudo h1 {
+.section-conteudo h1 {
     @apply text-3xl font-bold mb-10 md:text-4xl
 }
 

@@ -6,7 +6,7 @@ const Integrantes = () => {
     return (
         <>
             <main>
-                <section className="fundo-conteudo">
+                <section className="section-conteudo">
                     <h1>
                         Conheça nossa equipe
                     </h1>

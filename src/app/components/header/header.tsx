@@ -7,7 +7,7 @@ export function Header() {
 
     return (
         <>
-            <header className="w-full bg-white py-6 sm:text-xl">
+            <header className="w-full bg-blue-300 py-6 sm:text-xl">
                 <div className="w-4xl max-w-11/12 mx-auto flex justify-between items-center">
                     {/* Logo */}
                     <Link href="/" aria-label="Ir para a página inicial">
