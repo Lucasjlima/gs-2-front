@@ -1,15 +1,19 @@
 @import "tailwindcss";
 
 .section-conteudo {
-    @apply flex flex-col items-center p-5 my-5 bg-white rounded-lg shadow-md max-w-11/12 mx-auto w-3xl text-center 
+    @apply flex flex-col items-center p-5 my-5 bg-white rounded-lg shadow-md max-w-11/12 mx-auto w-3xl
 }
 
 .section-conteudo h1 {
     @apply text-3xl font-bold mb-10 md:text-4xl
 }
 
+.section-conteudo p+p {
+    @apply mt-4;
+}
+
 .article-integrante {
-    @apply mb-5 border-4 border-blue-600 p-4 sm:p-4 md:p-5;
+    @apply mb-5 border-4 border-blue-600 p-4 sm:p-4 md:p-5 text-center;
 }
 
 .article-integrante h3 {
