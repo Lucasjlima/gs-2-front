@@ -5,8 +5,8 @@ import { Footer } from "./components/footer/footer";
 
 
 export const metadata: Metadata = {
-    title: "GS",
-    description: "Global Solution",
+    title: "VOZ",
+    description: "Voz de orientação e Zelo",
 };
 
 export default function RootLayout({
