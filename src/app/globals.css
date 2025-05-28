@@ -11,23 +11,3 @@
 .section-conteudo p+p {
     @apply mt-4;
 }
-
-.article-integrante {
-    @apply mb-5 border-4 border-blue-600 p-4 sm:p-4 md:p-5 text-center;
-}
-
-.article-integrante h3 {
-    @apply mb-2.5 text-xl font-semibold mt-3
-}
-
-.article-integrante p {
-    @apply mb-2.5
-}
-
-.foto-integrante {
-    @apply aspect-square mx-auto rounded-md w-56 h-56 sm:w-60 sm:h-60 md:w-64 md:h-64 max-w-full max-h-full;
-}
-
-.icone-linkedin {
-    @apply text-blue-600 text-5xl hover:text-blue-800 transition mt-2 inline-block
-}
