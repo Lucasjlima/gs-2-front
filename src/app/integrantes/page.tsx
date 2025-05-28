@@ -1,4 +1,4 @@
-import {FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import CompIntegrante from "../components/compIntegrante/compIntegrante";
 
 const Integrantes = () => {
@@ -19,7 +19,7 @@ const Integrantes = () => {
                             foto="/images/foto-eduardo.jpg"
                             linkedin="https://www.linkedin.com/in/eduardo-osterloh-bindo-500b02268/"
                         />
-                        
+
                         <CompIntegrante
                             nome="Lucas José Lima"
                             rm="561160"

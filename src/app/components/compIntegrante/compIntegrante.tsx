@@ -21,7 +21,7 @@ const CompIntegrante = ({ nome, rm, turma, foto, linkedin }: Props) => {
                 height={500}
                 className="aspect-square mx-auto rounded-md w-56 h-56 sm:w-60 sm:h-60 md:w-64 md:h-64 max-w-full max-h-full"
             />
-            <h2 className="mb-2.5 text-xl font-semibold mt-3">{nome}</h2>
+            <p className="mb-2.5 text-xl font-semibold mt-3">{nome}</p>
             <p className="mb-2.5">RM: {rm}</p>
             <p className="mb-2.5">Turma: {turma}</p>
             <a
