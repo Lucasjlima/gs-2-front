@@ -17,7 +17,7 @@ export default function Home() {
                             <Botao texto="Chat" />
                         </Link>
 
-                        <Link href="/ajudaChat">
+                        <Link href="/pagEmail">
                             <Botao texto="E-Mail" />
                         </Link>
                     </div>
