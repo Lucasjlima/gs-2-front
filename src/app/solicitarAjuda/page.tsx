@@ -41,6 +41,8 @@ const solicitarAjudar = () => {
     return (
         <>
             <section className="section-conteudo">
+                <h1>Solicitar Ajudar</h1>
+                <p className="mx-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci optio quisquam aut architecto iusto harum sequi rem quis modi, sapiente voluptate minus dolorum. Voluptas doloremque iure animi doloribus officia veniam!</p>
                 <form className="w-full max-w-md border-2 rounded-md bg-blue-100" onSubmit={handleSubmit}>
                     <div className="flex flex-col items-center">
                         <label htmlFor="titulo" className="mt-4">Titulo:</label>

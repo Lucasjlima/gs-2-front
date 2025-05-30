@@ -11,7 +11,7 @@ export default function Home() {
                     <h1><TextoAnimado /></h1>
 
                     {/* Botões */}
-                    <div className="flex sm:flex-row flex-col items-center">
+                    <div className="grid grid-cols-2 gap-x-4 justify-items-center sm:flex sm:flex-row  sm:items-center sm:gap-0">
                         <Link href="/faq">
                             <BotaoBalao texto="FAQ" />
                         </Link>

@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import TextoAnimado from "../textoAnimado/textoAnimado";
 
 export function Header() {
     const [menuAberto, setMenuAberto] = useState(false);
@@ -27,7 +26,7 @@ export function Header() {
                     <nav className="hidden sm:block">
                         <ul className="flex space-x-4 text-lg">
                             <li><Link className="hover:underline" href="/">Início</Link></li>
-                            <li><Link className="hover:underline" href="/apoiar">Apoiar</Link></li>
+                            <li><Link className="hover:underline" href="/apoiar">Doações</Link></li>
                             <li><Link className="hover:underline" href="/integrantes">Integrantes</Link></li>
                         </ul>
                     </nav>
@@ -45,7 +44,7 @@ export function Header() {
                         <div className="sm:hidden font-bold w-2/4 absolute top-full bg-blue-300 shadow-md">
                             <ul className="flex flex-col items-center py-2.5 space-y-2.5">
                                 <li><Link href="/" onClick={() => setMenuAberto(false)}>Início</Link></li>
-                                <li><Link href="/apoiar" onClick={() => setMenuAberto(false)}>Apoiar</Link></li>
+                                <li><Link href="/apoiar" onClick={() => setMenuAberto(false)}>Doações</Link></li>
                                 <li><Link href="/integrantes" onClick={() => setMenuAberto(false)}>Integrantes</Link></li>
                             </ul>
                         </div>
